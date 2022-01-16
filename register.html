@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link href="styleRegister.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+    <style>
+	body {
+		background-image: url("images/cicek5.jfif");
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #ADABAB;
+		background-size:cover;
+		background-position:center;
+		opacity:85%;
+		background-repeat: no-repeat;
+	}
+</style>
+	<body>
+		<div class="register">
+			<h1>Kayıt</h1>
+			<form action="register.php" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Kullanıcı Adı" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Şifre" id="password" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Mail" id="email" required>
+				<input type="submit" value="Kaydol">
+			</form>
+		</div>
+	</body>
+</html>
